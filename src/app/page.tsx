@@ -27,7 +27,7 @@ const favoriteItems = [
   },
   {
     name: "Latte",
-    image: "/lt.jpg",
+    image: "/lt.JPG",
     description: "Espresso lembut dengan steamed milk dan sedikit busa yang nikmat.",
 
   },
@@ -64,7 +64,7 @@ const galleryImages = [
   "/cust 3.jpg",
   "/cust 4.jpg",
   "/org1.jpg",
-  "/matcha.jpg",
+  "/matcha.JPG",
 ];
 
 

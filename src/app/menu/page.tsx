@@ -16,7 +16,7 @@ export const menuData: MenuCategory[] = [
     name: "MINUMAN",
     description: "Kopi dan minuman non-kopi yang dibuat dengan tangan oleh barista ahli kami untuk menyempurnakan hari Anda.",
     items: [
-      { name: "Espresso", image: "/img (2).jpg" },
+      { name: "Espresso", image: "/img (2).JPG" },
       // ... item lainnya
     ]
   },
