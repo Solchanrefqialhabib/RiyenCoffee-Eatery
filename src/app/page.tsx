@@ -63,7 +63,7 @@ const galleryImages = [
   "/cust5.jpg",
   "/cust 3.jpg",
   "/cust 4.jpg",
-  "/org1.jpg",
+  "/org1.JPG",
   "/matcha.JPG",
 ];
 
