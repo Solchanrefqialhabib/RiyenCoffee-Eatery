@@ -37,7 +37,7 @@ const ReviewCard = ({ name, review, rating, imageUrl }: Review) => (
                 </svg>
             ))}
         </div>
-        <p className="text-gray-600 italic mb-4">"{review}"</p>
+        <p className="text-gray-600 italic mb-4">&quot;{review}&quot;</p>
         
         {imageUrl && (
           <div className="relative w-full h-48 rounded-md overflow-hidden mb-4">
@@ -274,20 +274,23 @@ export default function Contact() {
               subtitle="Beberapa hal yang sering ditanyakan oleh pelanggan kami." 
               center 
             />
-            <div className="mt-12 max-w-3xl mx-auto">
-              <FaqItem question="Apakah tersedia Wi-Fi?">
-                Tentu saja! Kami menyediakan koneksi Wi-Fi yang cepat dan stabil untuk mendukung produktivitas Anda.
-              </FaqItem>
-              <FaqItem question="Apakah ada area merokok (smoking area)?">
-                Ya, kami memiliki area khusus merokok yang nyaman dan terpisah dari area bebas asap rokok.
-              </FaqItem>
-              <FaqItem question="Bisakah saya melakukan reservasi tempat?">
-                Bisa. Untuk reservasi, terutama untuk grup, silakan hubungi kami melalui nomor telepon yang tertera.
-              </FaqItem>
-              <FaqItem question="Apakah tersedia menu non-kopi?">
-                Tentu. Selain kopi, kami juga menyediakan berbagai pilihan teh, jus, dan minuman non-kopi lainnya yang menyegarkan.
-              </FaqItem>
-            </div>
+            <FaqItem 
+              question="Apakah tersedia Wi-Fi?"
+              answer="Tentu saja! Kami menyediakan koneksi Wi-Fi yang cepat dan stabil untuk mendukung produktivitas Anda."
+            />
+            <FaqItem 
+              question="Apakah ada area merokok (smoking area)?"
+              answer="Ya, kami memiliki area khusus merokok yang nyaman dan terpisah dari area bebas asap rokok."
+            />
+            <FaqItem 
+              question="Bisakah saya melakukan reservasi tempat?"
+              answer="Bisa. Untuk reservasi, terutama untuk grup, silakan hubungi kami melalui nomor telepon yang tertera."
+            />
+            <FaqItem 
+              question="Apakah tersedia menu non-kopi?"
+              answer="Tentu. Selain kopi, kami juga menyediakan berbagai pilihan teh, jus, dan minuman non-kopi lainnya yang menyegarkan."
+            />
+
           </section>
         </div>
       </div>

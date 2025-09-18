@@ -1,6 +1,9 @@
 "use client";
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
+import Link from 'next/link';
+
 
 // In Next.js, images in the 'public' directory are served from the root.
 // So, we reference it with a string path instead of importing it as a module.
@@ -77,9 +80,15 @@ const StarbucksMegaMenu = () => {
           </ul>
         </div>
         <div className="col-span-2">
-           <div className="relative w-full h-48 rounded-lg overflow-hidden">
-             <img src="/flat.jpg" alt="Menu Special" className="w-full h-full object-cover" />
-           </div>
+<div className="relative w-full h-48 rounded-lg overflow-hidden">
+  <Image
+    src="/flat.jpg"
+    alt="Menu Special"
+    fill
+    className="object-cover"
+    priority // optional: loads image eagerly for important images
+  />
+</div>
         </div>
       </div>
     </div>
@@ -98,9 +107,9 @@ export default function Navbar({ theme = 'light' }: { theme?: 'light' | 'dark' }
     <header className={`relative z-50 transition-colors duration-300 ${theme === 'light' ? 'bg-white shadow-sm' : 'bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center px-6 md:px-10 h-20">
         <div className="flex items-center gap-8">
-          <a href="/" className="flex items-center gap-3">
-            <img src={logo} alt="Logo Riyen Coffee & Eatery" width={65} height={65} />
-          </a>
+<Link href="/" className="flex items-center gap-3">
+  <Image src={logo} alt="Logo Riyen Coffee & Eatery" width={65} height={65} />
+</Link>
           <nav className="hidden lg:flex items-center h-full">
             <ul className="flex items-center gap-6 h-full">
               {navLinks.map((link) => (

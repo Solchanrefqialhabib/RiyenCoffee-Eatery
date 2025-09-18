@@ -197,7 +197,7 @@ export default function Home() {
                   variants={gridItemVariants}
                 >
                   <img src={t.image} alt={t.name} className="w-16 h-16 rounded-full mx-auto mb-4 object-cover" />
-                  <p className="text-gray-600 italic">"{t.quote}"</p>
+                    <p className="text-gray-600 italic">&quot;{t.quote}&quot;</p>
                   <p className="mt-4 font-bold text-brand-dark">- {t.name}</p>
                 </motion.div>
               ))}
