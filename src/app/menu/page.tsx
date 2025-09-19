@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import SectionTitle from '../components/SectionTitle';
 
-// Definisikan tipe data untuk kategori
+// Definisikan tipe data untuk kategorid
 interface MenuCategory {
   name: string;
   description: string;
