@@ -43,7 +43,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[100dvh] w-full flex flex-col justify-center items-center text-white overflow-hidden">
+    <section className="relative lg:min-h-screen min-h-auto w-full flex flex-col justify-center items-center text-white overflow-hidden">
       {/* Slideshow */}
       <AnimatePresence>
         <motion.div
@@ -58,7 +58,7 @@ const Hero = () => {
             src={slideImages[currentSlide]}
             alt="Suasana Riyen Coffee & Eatery "
             fill
-            className="object-cover object-center"
+            className="lg:object-cover object-center"
             priority
           />
         </motion.div>
@@ -86,7 +86,8 @@ const Hero = () => {
           Tingkatkan produktivitas dan bangun suasana hati Anda dengan segelas kopi berkualitas dari Riyen Coffee & Eatery, disajikan khusus untuk Anda.
         </p>
 
-        <div className="mt-8 md:mt-10 flex flex-wrap justify-center gap-4">
+        <div className="py-10">
+          <div className="mt-8 md:mt-10 flex flex-wrap justify-center gap-4">
           <Link
             href="/menu"
             className="bg-brand-primary text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full font-bold hover:bg-opacity-90 transition duration-300 shadow-lg text-xs sm:text-base"
@@ -119,6 +120,7 @@ const Hero = () => {
             </svg>
             Lihat Cerita Kami
           </Link>
+        </div>
         </div>
       </motion.div>
 
