@@ -25,25 +25,25 @@ const galleryImages = [
   },
   { 
     id: 4, 
-    src: "/org2.jpg", 
+    src: "/org2.JPG", 
     alt: "Suasana Pengunjung", 
     description: "\"Kebersamaan para pengunjung di area semi-outdoor kami, tempat yang pas untuk bercengkrama dan berbagi cerita.\"" 
   },
   { 
     id: 5, 
-    src: "/atas out.jpg", 
+    src: "/atas out.JPG", 
     alt: "Area Outdoor Atas", 
     description: "\"Pemandangan dari area rooftop kami, menjadi spot favorit para pelanggan untuk menikmati senja sambil menyeruput kopi.\"" 
   },
   { 
     id: 6, 
-    src: "/org1.jpg", 
+    src: "/org1.JPG", 
     alt: "Pengunjung di Area Outdoor", 
     description: "\"Canda tawa dan cerita hangat selalu hadir di area outdoor kami yang asri dan sejuk.\"" 
   },
   { 
     id: 7, 
-    src: "/matcha.jpg", 
+    src: "/matcha.JPG", 
     alt: "Segelas Matcha Latte", 
     description: "\"Salah satu menu non-kopi andalan kami, Pinky Matcha dengan rasa yang otentik dan menyegarkan.\"" 
   },
