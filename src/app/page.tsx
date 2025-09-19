@@ -22,7 +22,7 @@ const favoriteItems = [
   {
     name: "Es Kopi Susu Riyen",
     image: "/img (2).JPG",
-    description: "Kopi Susu Lontar Riyen khas Riyen Coffee & Eatery yang menjadi favorit semua orang.",
+    description: "Kopi Susu Riyen khas Riyen Coffee & Eatery yang menjadi favorit semua orang.",
 
   },
   {
@@ -283,12 +283,12 @@ export default function Home() {
 
 
     <div className="text-center mt-10">
-      <Link
-        href="/galeri"
+      <a
+        href="/gallery"
         className="bg-brand-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-opacity-90 transition duration-300"
       >
         Lihat Semua Galeri
-      </Link>
+      </a>
     </div>
   </div>
 
